@@ -1,0 +1,359 @@
+This is not part of the display to the user
+
+Initial contents of file "players.txt"
+----------
+Inigo,Get6FingeredMan,4,15,40
+Westley,IAmDreadPirate,2,7,25
+Vizzini,Inconceivable!,5,11,32
+Fezzik,Sportsmanlike,4,17,54
+Buttercup,LightningSand,2,9,21
+Humperdinck,IShouldBeKing,1,3,10
+----------
+Now run the program, below is when the program starts running
+----------
+
+
+Welcome to the Word Finder Program
+
+Here is how to play:
+        For each round you will see a randomly selected word.
+        You will have 1 minute to find as many words as you can
+        that can be generated with the letters in your random
+        word.  Your words do not have to use all of the letters
+        in the word but they must be valid words
+
+Please sign in with your id and password
+If you are a new player, leave your id field blank
+and we will set you up with a new account
+If you would like to end the game, enter 'Quit'
+
+        Id: Vizzini
+        Please enter your password: Incomprehensible!
+        Sorry, your password does not match.  Please try again.
+        Please enter your password: Inconceivable!
+
+Welcome Vizzini!
+Would you like to play another round? (y/n) y
+Word: coordinate   Guess? drone
+        Answer 1 is drone
+Word: coordinate   Guess? date
+        Answer 2 is date
+Word: coordinate   Guess? root
+        Answer 3 is root
+Word: coordinate   Guess? rooted
+        Answer 4 is rooted
+Word: coordinate   Guess? dater
+dater is not valid
+Word: coordinate   Guess? coder
+        Answer 5 is coder
+Word: coordinate   Guess? node
+        Answer 6 is node
+Word: coordinate   Guess? toad
+        Answer 7 is toad
+Word: coordinate   Guess? road
+        Answer 8 is road
+Word: coordinate   Guess? rode
+        Answer 9 is rode
+Word: coordinate   Guess? trod
+        Answer 10 is trod
+Word: coordinate   Guess? rod
+        Answer 11 is rod
+Word: coordinate   Guess? nod
+        Answer 12 is nod
+Word: coordinate   Guess? coat
+        Answer 13 is coat
+Word: coordinate   Guess? coat
+Sorry, time is up!
+You found 13 words
+You earned 54 points
+Here are your words:
+coat
+coder
+date
+drone
+nod
+node
+road
+rod
+rode
+root
+rooted
+toad
+trod
+
+
+Would you like to play another round? (y/n) n
+
+Thanks for playing!
+In this game:
+        You played 1 rounds
+        You found a total of 13 words
+        Your earned a total of 54 points
+        Your average words per round were: 13.0
+        Your average points per round were: 13.0
+Overall, here are your stats:
+        Id: Vizzini
+        Total Rounds Played: 6
+        Total Words Found: 24
+        Total Points Earned: 86
+        Ave Words Found: 4.0
+        Ave Points Earned: 14.333333333333334
+
+Please sign in with your id and password
+If you are a new player, leave your id field blank
+and we will set you up with a new account
+If you would like to end the game, enter 'Quit'
+
+        Id:
+Welcome new Player!
+Before playing we must get some information from you
+        Please enter an ID for your account (no spaces)
+Rugen
+        Please enter your password: StopSayingThat
+        Confirm password: SayThatAgain
+        Sorry but your passwords don't match!
+        Please enter your password: StopSayingThat
+        Confirm password: StopSayingThat
+
+Welcome Rugen!
+Would you like to play another round? (y/n) y
+Word: premature   Guess? mature
+        Answer 1 is mature
+Word: premature   Guess? mate
+        Answer 2 is mate
+Word: premature   Guess? mart
+        Answer 3 is mart
+Word: premature   Guess? mature
+mature is a duplicate word
+Word: premature   Guess? ramp
+        Answer 4 is ramp
+Word: premature   Guess? turnip
+turnip is not valid
+Word: premature   Guess? turn
+Sorry, time is up!
+You found 4 words
+You earned 18 points
+Here are your words:
+mart
+mate
+mature
+ramp
+
+
+Would you like to play another round? (y/n) y
+Word: distinctive   Guess? distinct
+        Answer 1 is distinct
+Word: distinctive   Guess? invite
+        Answer 2 is invite
+Word: distinctive   Guess? disinvite
+disinvite is not valid
+Word: distinctive   Guess? tin
+        Answer 3 is tin
+Word: distinctive   Guess? invited
+        Answer 4 is invited
+Word: distinctive   Guess? din
+        Answer 5 is din
+Word: distinctive   Guess? vine
+        Answer 6 is vine
+Word: distinctive   Guess? igiveup
+Sorry, time is up!
+You found 6 words
+You earned 31 points
+Here are your words:
+din
+distinct
+invite
+invited
+tin
+vine
+
+
+Would you like to play another round? (y/n) n
+
+Thanks for playing!
+In this game:
+        You played 2 rounds
+        You found a total of 10 words
+        Your earned a total of 49 points
+        Your average words per round were: 5.0
+        Your average points per round were: 5.0
+Overall, here are your stats:
+        Id: Rugen
+        Total Rounds Played: 2
+        Total Words Found: 10
+        Total Points Earned: 49
+        Ave Words Found: 5.0
+        Ave Points Earned: 24.5
+
+Please sign in with your id and password
+If you are a new player, leave your id field blank
+and we will set you up with a new account
+If you would like to end the game, enter 'Quit'
+
+        Id: Westley
+        Please enter your password: ImmuneToIocane
+        Sorry, your password does not match.  Please try again.
+        Please enter your password: NooneToBeTrifledWith
+Your password still does not match, so your sign-in has been
+canceled.  Please register as a new player
+Welcome new Player!
+Before playing we must get some information from you
+        Please enter an ID for your account (no spaces)
+Westley
+        Sorry but that ID is taken.  Please try again
+        ID: Westley
+        Sorry but that ID is taken.  Please try again
+        ID: Westley
+        Sorry but that ID is taken.  Please try again
+        ID: Westley2
+        Please enter your password: TheRealDreadPirate
+        Confirm password: TheRealDreadPirate
+
+Welcome Westley2!
+Would you like to play another round? (y/n) y
+Word: footsore   Guess? sore
+        Answer 1 is sore
+Word: footsore   Guess? foot
+        Answer 2 is foot
+Word: footsore   Guess? store
+        Answer 3 is store
+Word: footsore   Guess? fort
+        Answer 4 is fort
+Word: footsore   Guess? forts
+        Answer 5 is forts
+Word: footsore   Guess? roof
+        Answer 6 is roof
+Word: footsore   Guess? roofs
+        Answer 7 is roofs
+Word: footsore   Guess? oft
+        Answer 8 is oft
+Word: footsore   Guess? soft
+        Answer 9 is soft
+Word: footsore   Guess? softer
+        Answer 10 is softer
+Word: footsore   Guess? foster
+        Answer 11 is foster
+Word: footsore   Guess? soot
+        Answer 12 is soot
+Word: footsore   Guess? roost
+Sorry, time is up!
+You found 12 words
+You earned 54 points
+Here are your words:
+foot
+fort
+forts
+foster
+oft
+roof
+roofs
+soft
+softer
+soot
+sore
+store
+
+
+Would you like to play another round? (y/n) n
+
+Thanks for playing!
+In this game:
+        You played 1 rounds
+        You found a total of 12 words
+        Your earned a total of 54 points
+        Your average words per round were: 12.0
+        Your average points per round were: 12.0
+Overall, here are your stats:
+        Id: Westley2
+        Total Rounds Played: 1
+        Total Words Found: 12
+        Total Points Earned: 54
+        Ave Words Found: 12.0
+        Ave Points Earned: 54.0
+
+Please sign in with your id and password
+If you are a new player, leave your id field blank
+and we will set you up with a new account
+If you would like to end the game, enter 'Quit'
+
+        Id: Quit
+Game over.  Here are the overall stats:
+Total Players: 8
+        Id: Inigo
+        Total Rounds Played: 4
+        Total Words Found: 15
+        Total Points Earned: 40
+        Ave Words Found: 3.75
+        Ave Points Earned: 10.0
+
+        Id: Westley
+        Total Rounds Played: 2
+        Total Words Found: 7
+        Total Points Earned: 25
+        Ave Words Found: 3.5
+        Ave Points Earned: 12.5
+
+        Id: Vizzini
+        Total Rounds Played: 6
+        Total Words Found: 24
+        Total Points Earned: 86
+        Ave Words Found: 4.0
+        Ave Points Earned: 14.333333333333334
+
+        Id: Fezzik
+        Total Rounds Played: 4
+        Total Words Found: 17
+        Total Points Earned: 54
+        Ave Words Found: 4.25
+        Ave Points Earned: 13.5
+
+        Id: Buttercup
+        Total Rounds Played: 2
+        Total Words Found: 9
+        Total Points Earned: 21
+        Ave Words Found: 4.5
+        Ave Points Earned: 10.5
+
+        Id: Humperdinck
+        Total Rounds Played: 1
+        Total Words Found: 3
+        Total Points Earned: 10
+        Ave Words Found: 3.0
+        Ave Points Earned: 10.0
+
+        Id: Rugen
+        Total Rounds Played: 2
+        Total Words Found: 10
+        Total Points Earned: 49
+        Ave Words Found: 5.0
+        Ave Points Earned: 24.5
+
+        Id: Westley2
+        Total Rounds Played: 1
+        Total Words Found: 12
+        Total Points Earned: 54
+        Ave Words Found: 12.0
+        Ave Points Earned: 54.0
+
+Aggregate results for all Players:
+        Total Rounds Played: 22
+        Total Words Found: 97
+        Total Points Earned: 339
+        Ave Words Found: 4.409090909090909
+        Ave Points Earned: 15.409090909090908
+
+Saving the players back to the file...
+>
+----------
+Let's now see the "players.txt" file again.  Note that
+Vizzini's entry has been updated and there are two new
+lines, one for Rugen and one for Westley2.
+----------
+Inigo,Get6FingeredMan,4,15,40
+Westley,IAmDreadPirate,2,7,25
+Vizzini,Inconceivable!,6,24,86
+Fezzik,Sportsmanlike,4,17,54
+Buttercup,LightningSand,2,9,21
+Humperdinck,IShouldBeKing,1,3,10
+Rugen,StopSayingThat,2,10,49
+Westley2,TheRealDreadPirate,1,12,54

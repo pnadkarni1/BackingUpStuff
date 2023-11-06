@@ -1,0 +1,157 @@
+> java Assig2
+Welcome to the Word Finder Program
+
+Here is how to play:
+	For each round you will see a randomly selected word.
+	You will have 1 minute to find as many words as you can
+	that can be generated with the letters in your random
+	word.  Your words do not have to use all of the letters
+	in the word but they must be valid words.  You will receive
+	a point for each letter in each word, so longer words count
+	more than shorter words.
+Would you like to try? (y/n) y
+Word: alternator   Guess? alter
+	Answer 1 is alter
+Word: alternator   Guess? rotate
+	Answer 2 is rotate
+Word: alternator   Guess? late
+	Answer 3 is late
+Word: alternator   Guess? later
+	Answer 4 is later
+Word: alternator   Guess? tale
+	Answer 5 is tale
+Word: alternator   Guess? teal
+	Answer 6 is teal
+Word: alternator   Guess? loan
+	Answer 7 is loan
+Word: alternator   Guess? tone
+	Answer 8 is tone
+Word: alternator   Guess? toner
+	Answer 9 is toner
+Word: alternator   Guess? loaner
+loaner is not valid
+Word: alternator   Guess? toner
+toner is a duplicate word
+Word: alternator   Guess? tern
+Sorry, time is up!
+You found 9 words
+You earned 41 points
+Here are your words:
+alter
+late
+later
+loan
+rotate
+tale
+teal
+tone
+toner
+
+
+Would you like to try? (y/n) y
+Word: minders   Guess? mind
+	Answer 1 is mind
+Word: minders   Guess? minder
+	Answer 2 is minder
+Word: minders   Guess? rind
+	Answer 3 is rind
+Word: minders   Guess? rinds
+	Answer 4 is rinds
+Word: minders   Guess? minders
+	Answer 5 is minders
+Word: minders   Guess? dine
+	Answer 6 is dine
+Word: minders   Guess? diner
+	Answer 7 is diner
+Word: minders   Guess? diners
+	Answer 8 is diners
+Word: minders   Guess? dim
+	Answer 9 is dim
+Word: minders   Guess? dims
+	Answer 10 is dims
+Word: minders   Guess? mine
+	Answer 11 is mine
+Word: minders   Guess? mines
+	Answer 12 is mines
+Word: minders   Guess? mines
+mines is a duplicate word
+Word: minders   Guess? dimmed
+dimmed is not valid
+Word: minders   Guess? bogus
+Sorry, time is up!
+You found 12 words
+You earned 57 points
+Here are your words:
+dim
+dims
+dine
+diner
+diners
+mind
+minder
+minders
+mine
+mines
+rind
+rinds
+
+
+Would you like to try? (y/n) y
+Word: inwardly   Guess? inward
+	Answer 1 is inward
+Word: inwardly   Guess? in
+	Answer 2 is in
+Word: inwardly   Guess? ward
+	Answer 3 is ward
+Word: inwardly   Guess? dry
+	Answer 4 is dry
+Word: inwardly   Guess? drain
+	Answer 5 is drain
+Word: inwardly   Guess? rain
+	Answer 6 is rain
+Word: inwardly   Guess? rind
+	Answer 7 is rind
+Word: inwardly   Guess? wain
+wain is not valid
+Word: inwardly   Guess? lain
+	Answer 8 is lain
+Word: inwardly   Guess? lay
+	Answer 9 is lay
+Word: inwardly   Guess? day
+	Answer 10 is day
+Word: inwardly   Guess? ray
+	Answer 11 is ray
+Word: inwardly   Guess? nay
+	Answer 12 is nay
+Word: inwardly   Guess? way
+	Answer 13 is way
+Word: inwardly   Guess? slay
+slay is not valid
+Word: inwardly   Guess? land
+Sorry, time is up!
+You found 13 words
+You earned 47 points
+Here are your words:
+day
+drain
+dry
+in
+inward
+lain
+lay
+nay
+rain
+ray
+rind
+ward
+way
+
+
+Would you like to try? (y/n) n
+
+Thanks for playing!
+You played 3 rounds
+You found a total of 34 words
+You earned a total of 145 points
+Your average found were 11.333333333333334 words per round
+Your average points were 48.333333333333336 points per round

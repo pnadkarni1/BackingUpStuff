@@ -1,0 +1,5 @@
+Marge,IHeartCS401,7,22,83
+Fezzik,Sportsmanlike,5,20,75
+Ingmar,Programming!,6,21,79
+Inigo,YouKeepUsingThatWord,5,20,75
+joe,mama,1,8,27
