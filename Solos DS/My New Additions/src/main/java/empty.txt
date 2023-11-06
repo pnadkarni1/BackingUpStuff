@@ -1,0 +1,1 @@
+This file is here for folder structure purposes only.  It can be deleted or left alone once you make your java class.  Do not type in here or rename it.

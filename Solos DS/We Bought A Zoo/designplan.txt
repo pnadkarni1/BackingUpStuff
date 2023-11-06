@@ -1,0 +1,162 @@
+Part 1: Constructor and methods not including menuSelect and Main
+Create instance variables:
+String array animalNames
+String array newAnimals
+Int arraySize for animalNames
+Int logicalSize for newAnimals
+Constructor 1:
+Read in from “zoo.txt”
+Loop through and count (arraySize++) until the nextLine != null
+Catch exceptions
+Read into “zoo.txt” again
+Initialize array using the arraySize as length
+Add the line to a new location in the array every time
+Catch expectations
+Initialize newAnimals to 10
+Set logical size to 0
+Constructor 2:
+Take in array parameter
+Initialize this.animalNames to parameter array
+Initialize newAnimals to 10
+Logical size to 0
+Get methods:
+Get method with index
+Check to see if index is within range
+If is then return animal at index else then return Index does not exist within the list of animals
+Get Method with only letter
+Loop through to see if index matches with letter
+If found first return the animal
+Else and loop ends return no animal found
+Get method with letter nth time
+Get temporary variable for nth time passed
+Loop through to see the first letter match with letter given and if it is nth time passed
+If is return animal
+Else tempN++
+Else outside loop return no animal found
+Set method:
+Check to see if index given is within range if not return false
+Check to see if animal is already in the array (dealt with later)
+Set index location to animal given
+If animal is not already in array:
+Check to see if newAnimals logical size is equal to its length if is 
+Resize array to be one bigger
+Add the animalName to closest null location
+Return true
+Insert Method:
+Check to see if animal is already in the array (needed later)
+Resize animalNames array to be one larger
+If alphabetical
+Loop through array to see where the animalName.compareTo is greater than zero and if is index++
+Shift every element up one so 3 is now 4 etc
+Place animalName at index
+Else
+Ask user for specific index
+Move every animal one up in the array
+Place animalName at index given
+Arraylogicalsize++
+If animal is not already in array:
+Check to see if newAnimals logical size is equal to its length if is 
+Resize array to be one bigger
+Add the animalName to closest null location
+Delete Methods:
+Delete with index
+Check to see if index is within range
+If is then capture animal at index and then make index null
+Resize the array to be one smaller
+Loop through array if i is less than index do not shift
+If i is greater than index shift down animal list
+Make logical size smaller
+Return the deleted animal
+Delete with name
+Loop through and find where the animal is located
+If not in array return not found
+Else if in array
+Capture deleted animal and make index equal to null
+Resize array to be one smaller
+Loop through array if i is less than index do not shift
+If i is greater than index shift down animal list
+Make logical size smaller
+Return deleted animal
+Delete with letter nth
+Make temp Nth variable
+If first letter matches with first letter of array animal and tempNth is equal to nth time given
+Set index location
+Else if letter match with first letter but tempNth is not reacher tempNth++
+If not found return not found
+Capture deleted animal and make index equal to null
+Resize array to be one smaller
+Loop through array if i is less than index do not shift
+If i is greater than index shift down animal list
+Make logical size smaller
+Return deleted animal
+Print animals
+Ask user how they would like to be printed
+If alphabetical
+Make temp array that is equal to animalNames
+Using nested for loop check to see if the value at i compareTo index j is greater than previous greatest number
+If is then swap indexes and make this greatest compareTo number
+Print the temp array out
+If reverse alphabetical
+Make temp array that is equal to animalNames
+Using nested for loop check to see if the value at i compareTo index j is less than previous greatest number
+If is then swap indexes and make this least compareTo number
+Print the temp array out
+If length
+Make temp array that is equal to animalNames
+Nested for loop
+If animal at i length and greater than animal at j length
+Swap values at index i and j
+Print out array
+If alternating alphabetical
+Make temp array alphabetical
+Check to see if length is even or odd
+If odd make the list length tempAnimals.length / 2 + 1
+If event just divide array length by 2
+Make a string that holds all array values
+Using for loop that runs until listLength
+If i is not equal to the length of the array minus i
+Add the animal at length - i to the string
+Print out the string
+Save list
+Try catch a writer object with append being true
+Loop through the array and if value at i is not null write into text file
+Return true
+Get animals Logical
+Return arraysize
+GetNewAnimalslogical
+Return logicalSize
+
+Part 2: Main and menu select
+Main method
+Welcome user
+While a variable still holds true
+Ask the user what they would like to do
+Call menuSelect method
+Thank user for using
+menuSelect
+Appropriately choose what option the user selected
+If not within if statement print out not an option
+If select 1 through 6
+Ask what user would like to choose from if applicable 
+Ask appropriate questions and call appropriate methods
+Part 3: Tests
+Before each set up 2 different ourZoo objects using both constructors
+Check if get return index not in list when asking for -1
+Check to see if get return proper value at 3
+Check to see if return proper value with y
+Check to see if no animal exist with t
+Check to see if list returns no animal found with animal with d second time
+Check to see if list return panther with animal with p first time
+Set index at 11 should return false
+Set index at 3 with animal roc should return true
+Delete value at index 2 should return true
+Delete value at -1 should return false
+Delete value with letter d should return displacer
+Delete value with letter should return no animal found
+Delete with animal d second time should return no animal found
+Delete with animal p first time should return panther
+Check to see if animal list logical is 10
+Check to see with different constructor if corresponds to correct logical size
+Add a new animal check to see if logical is 1
+No new added animals check to see if logical is 0
+Check to see if no new animals were appended to text file after not inserting new animals into list
