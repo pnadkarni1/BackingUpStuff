@@ -1,0 +1,6 @@
+Center: Jones 43000
+Left wing: Clark 57000
+Right wing: Brown 54250
+Left defense: Chase 64790
+Right defense: Murphy 44900
+Goalie: Gold 26900
